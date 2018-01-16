@@ -1,7 +1,6 @@
 @import "normalize";
 @import "typography";
 @import "base";
-
 #contact-section {
     display: flex;
     div {
@@ -95,7 +94,7 @@ nav {
 
 // Medium Screen Styles
 @media only screen and (min-width: 700px) {
-// Medium Screen Contact Section 
+    // Medium Screen Contact Section 
     #contact-section {
         div {
             a {
@@ -103,12 +102,12 @@ nav {
                 align-items: center;
                 background: #3ce0a0;
                 padding: 0em 1em 0 0;
-                border-radius:1.5em;
+                border-radius: 1.5em;
                 color: #202020;
                 font-weight: 700;
                 span {
                     display: inline;
-                    margin-left: 0.5em; 
+                    margin-left: 0.5em;
                 }
             }
         }
@@ -118,41 +117,65 @@ nav {
         width: 1.5em;
         height: 1.5em;
     }
-// Medium Screen About Section
-#about-section {
-    flex-wrap: nowrap;
-}
-.about-text {
-    margin-left: 2em;
-    align-items: center;
-    h1 {
-        font-size: 3.5em;
-        text-align: center;
+    // Medium Screen About Section
+    #about-section {
+        flex-wrap: nowrap;
     }
-    br {
-        display: none;
+    .about-text {
+        margin-left: 2em;
+        align-items: center;
+        h1 {
+            font-size: 3.5em;
+            text-align: center;
+        }
+        br {
+            display: none;
+        }
     }
-}
-#headShot {
-    height: 60vh;
-}
-// Medium Screen Navigation
-nav {
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 15vh;
-}
-.github {
-    width: 40%;
-    background: #202020;
-}
-.work {
-    width: 40%;
-    background: #535353;
-}
-.linkedin {
-    width: 20%;
-    order: -1;
-    background: #535353;
-}
+    #headShot {
+        height: 60vh;
+    }
+    // Medium Screen Navigation
+    nav {
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 15vh;
+    }
+    .github {
+        width: 50%;
+        background: #202020;
+        color: #B0B0B0;
+    }
+    .slant {
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        background:#535353;
+        z-index: -1;
+        
+    }
+    .slant:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: 100% 0;
+        transform: skew(-45deg);
+        background:#202020;
+        z-index: -1;
+        a{
+            cursor: pointer;
+        }
+    }
+    .work {
+        width: 30%;
+        background: #535353;
+    }
+    .linkedin {
+        width: 20%;
+        order: -1;
+        background: #535353;
+    }
 }
