@@ -52,6 +52,11 @@
 nav {
     display: flex;
     flex-wrap: wrap;
+    a {
+        &:hover {
+            color: #FCFCFC;
+        }
+    }
 }
 
 .github {
@@ -105,6 +110,9 @@ nav {
                 border-radius: 1.5em;
                 color: #202020;
                 font-weight: 700;
+                &:hover {
+                    color: #FCFCFC;
+                }
                 span {
                     display: inline;
                     margin-left: 0.5em;
@@ -116,8 +124,7 @@ nav {
         margin-right: auto;
         width: 1.5em;
         height: 1.5em;
-    }
-    // Medium Screen About Section
+    } // Medium Screen About Section
     #about-section {
         flex-wrap: nowrap;
     }
@@ -134,31 +141,23 @@ nav {
     }
     #headShot {
         height: 60vh;
-    }
-    // Medium Screen Navigation
+    } // Medium Screen Navigation
     nav {
         flex-wrap: nowrap;
         width: 100%;
         height: 15vh;
     }
-    .github {
-        // width: 50%;
-        // background: #202020;
-        // color: #B0B0B0;
-        // z-index: -1;
-    }
     .slant {
         position: relative;
         overflow: hidden;
-        color: #fff;
         z-index: 0;
     }
     .slant:after {
         content: '';
         position: absolute;
-        top: 0; 
+        top: 0;
         left: 0;
-        width: 100%; 
+        width: 100%;
         height: 100%;
         transform-origin: 100% 0;
         transform: skew(-45deg);

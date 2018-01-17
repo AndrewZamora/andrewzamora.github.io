@@ -455,6 +455,8 @@ nav {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+  nav a:hover {
+    color: #FCFCFC; }
 
 .github {
   display: -ms-flexbox;
@@ -508,6 +510,8 @@ nav {
     border-radius: 1.5em;
     color: #202020;
     font-weight: 700; }
+    #contact-section div a:hover {
+      color: #FCFCFC; }
     #contact-section div a span {
       display: inline;
       margin-left: 0.5em; }
@@ -537,7 +541,6 @@ nav {
   .slant {
     position: relative;
     overflow: hidden;
-    color: #fff;
     z-index: 0; }
   .slant:after {
     content: '';
