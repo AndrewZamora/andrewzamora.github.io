@@ -1,6 +1,7 @@
 @import "normalize";
 @import "typography";
 @import "base";
+@import "abstract/variables";
 #contact-section {
     display: flex;
     div {
@@ -14,7 +15,7 @@
 }
 
 #contact-icon {
-    background: #202020;
+    background: $dark-black;
     border-radius: 50%;
     width: 3em;
     height: 3em;
@@ -54,21 +55,21 @@ nav {
     flex-wrap: wrap;
     a {
         &:hover {
-            color: #FCFCFC;
+            color: $off-white;
         }
     }
 }
 
 .github {
     display: flex;
-    background: #535353;
+    background:$dark-gray;
     justify-content: center;
     align-items: center;
     padding: 0.8em;
     width: 100%;
     p,
     a {
-        color: #B0B0B0;
+        color: $light-gray;
         font-weight: 700;
     }
 }
@@ -77,19 +78,19 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #3ce0a0;
-    color: #B0B0B0;
+    background: $seafoam-green;
+    color: $light-gray;
     font-weight: 700;
     width: 50%;
     a {
-        color: #B0B0B0;
+        color: $light-gray;
     }
 }
 
 .linkedin {
     display: flex;
     justify-content: center;
-    background: #FCFCFC;
+    background: $off-white;
     align-items: center;
     width: 50%;
     img {
@@ -105,13 +106,13 @@ nav {
             a {
                 display: flex;
                 align-items: center;
-                background: #3ce0a0;
+                background: $seafoam-green;
                 padding: 0em 1em 0 0;
                 border-radius: 1.5em;
-                color: #202020;
+                color: $dark-black;
                 font-weight: 700;
                 &:hover {
-                    color: #FCFCFC;
+                    color: $off-white;
                 }
                 span {
                     display: inline;
@@ -161,16 +162,16 @@ nav {
         height: 100%;
         transform-origin: 100% 0;
         transform: skew(-45deg);
-        background: #202020;
+        background: $dark-black;
         z-index: -1;
     }
     .work {
         width: 30%;
-        background: #535353;
+        background:$dark-gray;
     }
     .linkedin {
         width: 20%;
         order: -1;
-        background: #535353;
+        background:$dark-gray;
     }
 }
