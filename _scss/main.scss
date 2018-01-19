@@ -1,7 +1,8 @@
-@import "normalize";
-@import "typography";
-@import "base";
+@import "vendor/normalize";
+@import "base/typography";
+@import "base/base";
 @import "abstract/variables";
+
 #contact-section {
     display: flex;
     div {
