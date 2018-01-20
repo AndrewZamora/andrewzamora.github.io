@@ -56,6 +56,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     a {
+        transition: 300ms;
         &:hover {
             color: $off-white;
         }
@@ -113,6 +114,7 @@ nav {
                 border-radius: 1.5em;
                 color: $dark-black;
                 font-weight: 700;
+                transition: 300ms;
                 &:hover {
                     color: $off-white;
                 }
