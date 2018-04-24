@@ -7,7 +7,7 @@
 #contact-section {
     display: flex;
     div {
-        margin: 1.5em 1.5em 0 auto;
+        margin: 0.5em 0.5em 0 auto;
         a {
             span {
                 display: none;
@@ -19,8 +19,8 @@
 #contact-icon {
     background: $dark-black;
     border-radius: 50%;
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     padding: 0.5em;
     cursor: pointer;
 }
@@ -28,15 +28,16 @@
 #about-section {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: auto;
     height: 80vh;
+    flex-wrap: wrap;
 }
 
 .about-text {
     display: flex;
     flex-direction: column;
     align-self: center;
+    padding-left: 1em;
     h1 {
         font-weight: 700;
         font-size: 2.4em;
@@ -48,7 +49,7 @@
 }
 
 #headShot {
-    height: 50vh;
+    height: 45vh;
     margin-top: auto;
 }
 
@@ -130,9 +131,6 @@ nav {
         width: 1.5em;
         height: 1.5em;
     } // Medium Screen About Section
-    #about-section {
-        flex-wrap: nowrap;
-    }
     .about-text {
         margin-left: 2em;
         align-items: center;
@@ -145,7 +143,7 @@ nav {
         }
     }
     #headShot {
-        height: 60vh;
+        height: 50vh;
     } // Medium Screen Navigation
     nav {
         flex-wrap: nowrap;

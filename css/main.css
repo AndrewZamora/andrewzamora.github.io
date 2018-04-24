@@ -453,15 +453,15 @@ a {
   display: -ms-flexbox;
   display: flex; }
   #contact-section div {
-    margin: 1.5em 1.5em 0 auto; }
+    margin: 0.5em 0.5em 0 auto; }
     #contact-section div a span {
       display: none; }
 
 #contact-icon {
   background: #202020;
   border-radius: 50%;
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
   padding: 0.5em;
   cursor: pointer; }
 
@@ -470,10 +470,10 @@ a {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin-top: auto;
-  height: 80vh; }
+  height: 80vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .about-text {
   display: -ms-flexbox;
@@ -481,7 +481,8 @@ a {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-item-align: center;
-      align-self: center; }
+      align-self: center;
+  padding-left: 1em; }
   .about-text h1 {
     font-weight: 700;
     font-size: 2.4em;
@@ -490,7 +491,7 @@ a {
     margin: 0; }
 
 #headShot {
-  height: 50vh;
+  height: 45vh;
   margin-top: auto; }
 
 nav {
@@ -565,9 +566,6 @@ nav {
     margin-right: auto;
     width: 1.5em;
     height: 1.5em; }
-  #about-section {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap; }
   .about-text {
     margin-left: 2em;
     -ms-flex-align: center;
@@ -578,7 +576,7 @@ nav {
     .about-text br {
       display: none; }
   #headShot {
-    height: 60vh; }
+    height: 50vh; }
   nav {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
