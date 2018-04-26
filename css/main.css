@@ -460,9 +460,9 @@ a {
 #contact-icon {
   background: #202020;
   border-radius: 50%;
-  width: 2em;
-  height: 2em;
-  padding: 0.8em;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0.5em;
   cursor: pointer; }
 
 #about-section {
@@ -564,8 +564,8 @@ nav {
       margin-left: 0.5em; }
   #contact-icon {
     margin-right: auto;
-    width: 1.5em;
-    height: 1.5em; }
+    width: 2em;
+    height: 2em; }
   .about-text {
     margin-left: 2em;
     -ms-flex-align: center;
