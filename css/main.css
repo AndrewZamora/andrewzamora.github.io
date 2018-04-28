@@ -500,6 +500,7 @@ nav {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   nav a {
+    outline: none;
     transition: 300ms; }
     nav a:hover {
       color: #FCFCFC; }

@@ -57,6 +57,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     a {
+        outline: none;
         transition: 300ms;
         &:hover {
             color: $off-white;
