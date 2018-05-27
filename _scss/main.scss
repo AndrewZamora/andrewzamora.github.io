@@ -84,11 +84,10 @@ nav {
     justify-content: center;
     align-items: center;
     background: $seafoam-green;
-    color: $light-gray;
     font-weight: 700;
     width: 50%;
     a {
-        color: $light-gray;
+        color: $dark-gray;
     }
 }
 
@@ -171,6 +170,9 @@ nav {
     .work {
         width: 30%;
         background:$dark-gray;
+        a {
+            color: $light-gray;
+        }
     }
     .linkedin {
         width: 20%;

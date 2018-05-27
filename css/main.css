@@ -528,11 +528,10 @@ nav {
   -ms-flex-align: center;
       align-items: center;
   background: #3ce0a0;
-  color: #B0B0B0;
   font-weight: 700;
   width: 50%; }
   .work a {
-    color: #B0B0B0; }
+    color: #535353; }
 
 .linkedin {
   display: -ms-flexbox;
@@ -603,6 +602,8 @@ nav {
   .work {
     width: 30%;
     background: #535353; }
+    .work a {
+      color: #B0B0B0; }
   .linkedin {
     width: 20%;
     -ms-flex-order: -1;
