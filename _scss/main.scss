@@ -30,7 +30,7 @@
     justify-content: center;
     margin-top: auto;
     height: 80vh;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .about-text {
@@ -49,8 +49,8 @@
 }
 
 #headShot {
-    height: 45vh;
-    margin-bottom: auto;
+    height: 35vh;
+    margin: auto 0;
     border-radius: 50%;
 }
 
@@ -144,7 +144,7 @@ nav {
         }
     }
     #headShot {
-        height: 50vh;
+        height: 45vh;
     } // Medium Screen Navigation
     nav {
         flex-wrap: nowrap;

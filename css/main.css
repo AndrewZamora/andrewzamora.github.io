@@ -472,8 +472,8 @@ a {
       justify-content: center;
   margin-top: auto;
   height: 80vh;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse; }
 
 .about-text {
   display: -ms-flexbox;
@@ -491,8 +491,8 @@ a {
     margin: 0; }
 
 #headShot {
-  height: 45vh;
-  margin-bottom: auto;
+  height: 35vh;
+  margin: auto 0;
   border-radius: 50%; }
 
 nav {
@@ -577,7 +577,7 @@ nav {
     .about-text br {
       display: none; }
   #headShot {
-    height: 50vh; }
+    height: 45vh; }
   nav {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
