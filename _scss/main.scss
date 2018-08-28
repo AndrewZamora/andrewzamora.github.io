@@ -80,7 +80,7 @@ nav {
     }
 }
 
-.work {
+.projects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +168,7 @@ nav {
         background: $dark-black;
         z-index: -1;
     }
-    .work {
+    .projects {
         width: 30%;
         background:$dark-gray;
         a {
