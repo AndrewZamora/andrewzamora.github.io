@@ -1,12 +1,12 @@
 {
   "name": "browser-sync-jekyll",
   "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "description": "Andrew Zamora's Portfolio",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
+  "author": "Andrew Zamora",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.24.7",
