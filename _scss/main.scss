@@ -9,6 +9,9 @@
     height: 100vh;
     overflow: hidden;
     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact-section {
@@ -38,15 +41,14 @@
     display: flex;
     justify-content: center;
     margin-top: auto;
-    height: 80vh;
     flex-wrap: wrap-reverse;
 }
 
 .about-text {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    padding-left: 1em;
+    margin: auto 0;
+    padding: 1em;
 
     h1 {
         font-weight: 700;
@@ -60,12 +62,13 @@
 }
 
 #headShot {
-    height: 35vh;
-    margin: auto 0;
+    width: auto;
+    height: 200px;
     border-radius: 50%;
 }
 
 nav {
+    margin-top: auto;
     display: flex;
     flex-wrap: wrap;
 
@@ -119,7 +122,7 @@ nav {
     }
 }
 
-// Medium Screen Styles
+// Home Page Medium Screen Styles
 @media only screen and (min-width: 700px) {
 
     // Medium Screen Contact Section 
@@ -168,9 +171,7 @@ nav {
         }
     }
 
-    #headShot {
-        height: 45vh;
-    }
+
 
     // Medium Screen Navigation
     nav {
