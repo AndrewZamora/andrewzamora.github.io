@@ -4,10 +4,19 @@
 @import "base/base";
 @import "abstract/variables";
 
+// Home Page
+#home-page-main {
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+}
+
 #contact-section {
     display: flex;
+
     div {
         margin: 0.5em 0.5em 0 auto;
+
         a {
             span {
                 display: none;
@@ -38,11 +47,13 @@
     flex-direction: column;
     align-self: center;
     padding-left: 1em;
+
     h1 {
         font-weight: 700;
         font-size: 2.4em;
         margin: 0;
     }
+
     p {
         margin: 0;
     }
@@ -57,9 +68,11 @@
 nav {
     display: flex;
     flex-wrap: wrap;
+
     a {
         outline: none;
         transition: 300ms;
+
         &:hover {
             color: $off-white;
         }
@@ -68,11 +81,12 @@ nav {
 
 .github {
     display: flex;
-    background:$dark-gray;
+    background: $dark-gray;
     justify-content: center;
     align-items: center;
     padding: 0.8em;
     width: 100%;
+
     p,
     a {
         color: $light-gray;
@@ -87,6 +101,7 @@ nav {
     background: $seafoam-green;
     font-weight: 700;
     width: 50%;
+
     a {
         color: $dark-gray;
     }
@@ -98,6 +113,7 @@ nav {
     background: $off-white;
     align-items: center;
     width: 50%;
+
     img {
         padding: 0.95em 0;
     }
@@ -105,6 +121,7 @@ nav {
 
 // Medium Screen Styles
 @media only screen and (min-width: 700px) {
+
     // Medium Screen Contact Section 
     #contact-section {
         div {
@@ -117,9 +134,11 @@ nav {
                 color: $dark-black;
                 font-weight: 700;
                 transition: 300ms;
+
                 &:hover {
                     color: $off-white;
                 }
+
                 span {
                     display: inline;
                     margin-left: 0.5em;
@@ -127,35 +146,45 @@ nav {
             }
         }
     }
+
     #contact-icon {
         margin-right: auto;
         width: 2em;
         height: 2em;
-    } // Medium Screen About Section
+    }
+
+    // Medium Screen About Section
     .about-text {
         margin-left: 2em;
         align-items: center;
+
         h1 {
             font-size: 3.5em;
             text-align: center;
         }
+
         br {
             display: none;
         }
     }
+
     #headShot {
         height: 45vh;
-    } // Medium Screen Navigation
+    }
+
+    // Medium Screen Navigation
     nav {
         flex-wrap: nowrap;
         width: 100%;
         height: 15vh;
     }
+
     .slant {
         position: relative;
         overflow: hidden;
         z-index: 0;
     }
+
     .slant:after {
         content: '';
         position: absolute;
@@ -168,16 +197,62 @@ nav {
         background: $dark-black;
         z-index: -1;
     }
+
     .projects {
         width: 30%;
-        background:$dark-gray;
+        background: $dark-gray;
+
         a {
             color: $light-gray;
         }
     }
+
     .linkedin {
         width: 20%;
         order: -1;
-        background:$dark-gray;
+        background: $dark-gray;
     }
+}
+
+// Projects Page
+#projects-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2em;
+}
+
+#projects-title {
+    color: $seafoam-green;
+    font-size: 2em;
+    padding: 1em;
+    background: $dark-gray;
+    width: 100%;
+}
+
+.project {
+    padding: 2em 0;
+    width: 80%;
+}
+
+.project p {
+    line-height: 1.5em;
+}
+
+.project a {
+    color: $seafoam-green;
+    font-weight: 700;
+}
+
+.project h2,
+.project h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    font-weight: 700;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
 }
