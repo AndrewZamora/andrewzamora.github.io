@@ -638,3 +638,9 @@ nav {
 .project img {
   width: 100%;
   height: auto; }
+
+#project-back-button {
+  margin: 2em;
+  color: #3ce0a0;
+  text-decoration: none;
+  font-weight: 700; }
