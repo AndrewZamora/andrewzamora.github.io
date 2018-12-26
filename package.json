@@ -1,35 +1,20 @@
 {
   "name": "andrewzamora.github.io",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Portfolio Site",
-  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Zamora",
   "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.24.7",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "1.0.0",
-    "gulp-sass": "3.0.0"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "url": "git+https://github.com/AndrewZamora/andrewzamora.github.io"
   },
-  "keywords": [
-    "jekyll",
-    "gulp",
-    "sass",
-    "browsersync"
-  ],
   "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+    "url": "https://github.com/AndrewZamora/andrewzamora.github.io/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync",
-  "dependencies": {
-    "karma": "^3.0.0",
-    "lodash": "^4.17.5"
-  }
+  "homepage": "https://github.com/AndrewZamora/andrewzamora.github.io",
+  "dependencies": {}
 }
