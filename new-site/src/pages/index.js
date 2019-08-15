@@ -1,8 +1,10 @@
 import React from "react"
+import "./normalize.css"
 import "./index.css"
 import headShot from "../images/headShot.jpg"
+import sendIcon from "../images/send.svg"
+import linkedinIcon from "../images/linkedinSquare.svg"
 // import { Link } from "gatsby"
-
 // import Layout from "../components/layout"
 // import Image from "../components/image"
 // import SEO from "../components/seo"
@@ -23,7 +25,7 @@ const IndexPage = () => (
       <section id="contact-section">
         <div>
           <a href="mailto:andrewmichaelzamora@gmail.com">
-            <img id="contact-icon" src="assets/img/send.svg" alt="Send Message Paper Airplane"></img>
+            <img id="contact-icon" src={sendIcon} alt="Send Message Paper Airplane"></img>
             <span>Get in touch</span>
           </a>
         </div>
@@ -47,7 +49,7 @@ const IndexPage = () => (
           <a href="/projects">Projects</a>
         </div>
         <div class="linkedin">
-          <a href="https://www.linkedin.com/in/andrew-zamora-21058116" target="_blank" rel="noopener noreferrer"><img src="assets/img/linkedinSquare.svg"
+          <a href="https://www.linkedin.com/in/andrew-zamora-21058116" target="_blank" rel="noopener noreferrer"><img src={linkedinIcon}
             alt="linkedin logo"></img></a>
         </div>
       </nav>

@@ -1,114 +1,231 @@
-
 #home-page-main {
-    height: 100vh;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 #contact-section {
-    display: flex;
+  display: flex;
 }
-
 #contact-section div {
-    margin: 0.5em 0.5em 0 auto;
+  margin: 0.5em 0.5em 0 auto;
 }
 
 #contact-section div a span {
-    display: none;
+  display: none;
 }
 
 #contact-icon {
-    background: #202020;
-    border-radius: 50%;
-    width: 2.5em;
-    height: 2.5em;
-    padding: 0.5em;
-    cursor: pointer;
+  background: #202020;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0.5em;
+  cursor: pointer;
 }
 
 #about-section {
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    flex-wrap: wrap-reverse;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  flex-wrap: wrap-reverse;
 }
 
 .about-text {
-    display: flex;
-    flex-direction: column;
-    margin: auto 0;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  padding: 1em;
 }
-
 .about-text h1 {
-    font-weight: 700;
-    font-size: 2.4em;
-    margin: 0;
+  font-weight: 700;
+  font-size: 2.4em;
+  margin: 0;
 }
-
 .about-text p {
-    margin: 0;
+  margin: 0;
 }
 
 #headShot {
-    width: auto;
-    height: 200px;
-    border-radius: 50%;
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
 }
 
 nav {
-    margin-top: auto;
-    display: flex;
-    flex-wrap: wrap;
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-a {
-    outline: none;
-    transition: 300ms;
+nav a {
+  outline: none;
+  transition: 300ms;
 }
-
-a:hover {
-    color: #FCFCFC;
+nav a:hover {
+  color: #FCFCFC;
 }
 
 .github {
-    display: flex;
-    background: #535353;
-    justify-content: center;
-    align-items: center;
-    padding: 0.8em;
-    width: 100%;
+  display: flex;
+  background: #535353;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8em;
+  width: 100%;
 }
-
-.github p, .github  a {
-    color: #B0B0B0;
-    font-weight: 700;
+.github p,
+.github a {
+  color: #B0B0B0;
+  font-weight: 700;
 }
 
 .projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: $seafoam-green;
-    font-weight: 700;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3ce0a0;
+  font-weight: 700;
+  width: 50%;
 }
-
-.projects  a {
-    color: #535353;
+.projects a {
+  color: #535353;
 }
 
 .linkedin {
-    display: flex;
-    justify-content: center;
-    background: #FCFCFC;
-    align-items: center;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  background: #FCFCFC;
+  align-items: center;
+  width: 50%;
+}
+.linkedin img {
+  padding: 0.95em 0;
 }
 
-.linkedin img {
-    padding: 0.95em 0;
+@media (min-width: 700px) {
+  #contact-section div a {
+    display: flex;
+    align-items: center;
+    background: #3ce0a0;
+    padding: 0em 1em 0 0;
+    border-radius: 1.5em;
+    color: #202020;
+    font-weight: 700;
+    transition: 300ms;
+  }
+  #contact-section div a:hover {
+    color: #FCFCFC;
+  }
+  #contact-section div a span {
+    display: inline;
+    margin-left: 0.5em;
+  }
+
+  #contact-icon {
+    margin-right: auto;
+    width: 2em;
+    height: 2em;
+  }
+
+  .about-text {
+    margin-left: 2em;
+    align-items: center;
+  }
+  .about-text h1 {
+    font-size: 3.5em;
+    text-align: center;
+  }
+  .about-text br {
+    display: none;
+  }
+
+  nav {
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 15vh;
+  }
+
+  .slant {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
+
+  .slant:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 100% 0;
+    transform: skew(-45deg);
+    background: #202020;
+    z-index: -1;
+  }
+
+  .projects {
+    width: 30%;
+    background: #535353;
+  }
+  .projects a {
+    color: #B0B0B0;
+  }
+
+  .linkedin {
+    width: 20%;
+    order: -1;
+    background: #535353;
+  }
+}
+#projects-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2em;
+}
+
+#projects-title {
+  color: #3ce0a0;
+  font-size: 2em;
+  padding: 1em;
+  background: #535353;
+  width: 100%;
+}
+
+.project {
+  padding: 2em 0;
+  width: 80%;
+}
+
+.project p {
+  line-height: 1.5em;
+}
+
+.project a {
+  color: #3ce0a0;
+  font-weight: 700;
+}
+
+.project h2,
+.project h3 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  font-weight: 700;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+#project-back-button {
+  margin: 2em;
+  color: #3ce0a0;
+  text-decoration: none;
+  font-weight: 700;
 }
