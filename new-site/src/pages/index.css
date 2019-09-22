@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+/* Home Page  */
 #home-page-main {
   height: 100vh;
   overflow: hidden;
