@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -199,6 +204,7 @@ nav a:hover {
   padding: 1em;
   background: #535353;
   width: 100%;
+  margin-top: 0; 
 }
 
 .project {

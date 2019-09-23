@@ -4,7 +4,7 @@ import "./index.css"
 import headShot from "../images/headShot.jpg"
 import sendIcon from "../images/send.svg"
 import linkedinIcon from "../images/linkedinSquare.svg"
-import { Helmet } from 'react-helmet'
+import SEO from "../components/seo"
 import { Link } from "gatsby"
 // import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -22,9 +22,7 @@ const IndexPage = () => (
   //   <Link to="/page-2/">Go to page 2</Link>
   // </Layout>
   <>
-  <Helmet>
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"></link>
-  </Helmet>
+  <SEO title="Home" />
       <main id="home-page-main">
         <section id="contact-section">
           <div>
