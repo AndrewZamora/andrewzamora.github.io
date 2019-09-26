@@ -13,7 +13,7 @@ const Projects = () => (
     <SEO title="Projects" />
     <main id="projects-main">
     <h1 id="projects-title">Projects</h1>
-      <div class="project">
+      <div className="project">
         <h2>Whale-Sightings-Map</h2>
         <img src={whaleSightingsMap} alt="project-img" />
         <h3>Description:</h3>
@@ -26,7 +26,7 @@ const Projects = () => (
             target="_blank" rel="noopener noreferrer">here</a>.
         </p>
       </div>
-      <div class="project">
+      <div className="project">
         <h2>Who's On What?</h2>
         <img src={whosOnWhat} alt="project-img" />
         <h3>Description:</h3>
@@ -36,7 +36,7 @@ const Projects = () => (
           and its code can be viewed on <a href="https://github.com/AndrewZamora/Whos-On-What" target="_blank" rel="noopener noreferrer">Github</a>.
         </p>
       </div>
-      <div class="project">
+      <div className="project">
         <h2>CodePen Projects</h2>
         <img src={codePenProjects} alt="project-img" />
         <h3>Description:</h3>
