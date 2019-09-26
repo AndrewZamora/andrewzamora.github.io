@@ -1,0 +1,14 @@
+.layout-container {
+    display: flex;
+}
+
+.layout-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 100%;
+}
+
+.layout-footer {
+    margin-top: auto;
+}

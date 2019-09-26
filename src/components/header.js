@@ -1,33 +1,29 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "./header.css"
+import logo from "../images/az.png"
+
+const links = ["About", "Contact", "Blog", "Projects"];
+const sections = links.map(item => {
+  const link = `/${item.toLowerCase()}/`;
+  return (
+    <li className="header-li" key={item}>
+      <Link to={link}>{item}</Link>
+    </li>
+  )
+});
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <header className="header">
+    <Link to="/">
+      <img className="header-logo" src={logo} alt="logo" />
+    </Link>
+    <nav className="header-nav">
+      <ul>
+        {sections}
+      </ul>
+    </nav>
   </header>
 )
 

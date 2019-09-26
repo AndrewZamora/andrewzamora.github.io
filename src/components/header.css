@@ -1,0 +1,55 @@
+.header {
+    outline: red dashed 2px;
+    background: #333333;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-a {
+    text-decoration: none;
+}
+
+.header-h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-logo {
+    padding: 2em 0;
+    width: 6em;
+    border: 2px green dashed;
+}
+
+.header-nav {
+    border: 2px orange dashed;
+}
+
+.header-nav ul {
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+}
+
+.header-nav ul li {
+    list-style: none;
+    margin: 3em 0;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.cls-1 {
+    fill: #fff;
+    }
+
+.cls-2 {
+    font-size: 6218.67px;
+    text-anchor: middle;
+    font-family: "Keep Calm";
+    }
