@@ -2,9 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import "./header.css"
-import logo from "../images/az.png"
+import logo from "../images/az.svg"
 
-const links = ["About", "Contact", "Blog", "Projects"];
+const links = ["Blog", "Projects", "Contact"];
 const sections = links.map(item => {
   const link = `/${item.toLowerCase()}/`;
   return (
