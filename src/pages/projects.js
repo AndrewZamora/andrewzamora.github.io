@@ -1,17 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./projects.css"
 
 // import Layout from "../components/layout"  Later you should add this
 import SEO from "../components/seo"
+import Card from "../components/card"
+import Layout from "../components/layout"
 
 import whaleSightingsMap from "../images/whaleSightingsMap.png"
 import whosOnWhat from "../images/whosOnWhat.jpg"
 import codePenProjects from "../images/codePenProjects.jpg"
 
 const Projects = () => (
-  <>
+  <Layout>
     <SEO title="Projects" />
-    <main id="projects-main">
+    <h1>Projects</h1>
+    <div className="projects-container">
+      <Card url="https://whalesightingsmap.netlify.com/" img={whaleSightingsMap}></Card>
+      <Card img={whosOnWhat}></Card>
+      <Card img={codePenProjects}></Card>
+    </div>
+    {/* <main id="projects-main">
     <h1 id="projects-title">Projects</h1>
       <div className="project">
         <h2>Whale-Sightings-Map</h2>
@@ -46,8 +55,10 @@ const Projects = () => (
         </p>
       </div>
       <Link to="/" id="project-back-button">Back</Link>
-    </main>
-  </>
+    </main> */}
+  </Layout>
+
+
 )
 
 export default Projects

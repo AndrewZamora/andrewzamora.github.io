@@ -9,11 +9,6 @@ const Blog = () => (
   <Layout>
     <SEO title="Blog" />
     <h1>Blog</h1>
-    <div className="projects-container">
-    <Card url="https://www.google.com/"></Card>
-    <Card></Card>
-    <Card></Card>
-    </div>
   </Layout>
 )
 

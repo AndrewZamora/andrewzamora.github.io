@@ -2,11 +2,11 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./card.css"
 
-const Card = ({url}) => (
+const Card = ({url,img}) => (
   <a href={url} target="_blank" rel="noopener noreferrer">
     <div className="card">
       <div className="img-container">
-        <img src="https://images.pexels.com/photos/2196602/pexels-photo-2196602.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+        <img src={img} alt="Project" />
       </div>
       <div className="card-text">
         <h2 className="card-title">Card 1</h2>
@@ -18,10 +18,12 @@ const Card = ({url}) => (
 
 Card.propTypes = {
   url: PropTypes.string,
+  img: PropTypes.string,
 }
 
 Card.defaultProps = {
   url: ``,
+  img: ``,
 }
 
 export default Card
