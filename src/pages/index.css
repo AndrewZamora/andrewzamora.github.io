@@ -1,5 +1,6 @@
 html,body {
     height: 100%;
+    background: #ffffff;
 } 
 
 #___gatsby {
@@ -8,4 +9,8 @@ html,body {
 
 #gatsby-focus-wrapper {
     height: 100%;
+}
+
+.title {
+    margin: 1em;
 }

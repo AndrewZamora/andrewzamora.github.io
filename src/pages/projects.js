@@ -14,7 +14,7 @@ import codePenProjects from "../images/codePenProjects.jpg"
 const Projects = () => (
   <Layout>
     <SEO title="Projects" />
-    <h1>Projects</h1>
+    <h1 className="title">Projects</h1>
     <div className="projects-container">
       <Card url="https://whalesightingsmap.netlify.com/" img={whaleSightingsMap}></Card>
       <Card img={whosOnWhat}></Card>

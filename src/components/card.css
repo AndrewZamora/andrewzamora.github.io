@@ -8,6 +8,7 @@
     /* @keyframes duration | timing-function | delay | name */
     /* animation: 1.5s linear 1s floatShadow; */
     animation: 0.1s floatShadow forwards 0.5s;
+    margin: 1em;
 }
 
 .img-container {
