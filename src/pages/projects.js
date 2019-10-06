@@ -17,8 +17,8 @@ const Projects = () => (
     <h1 className="title">Projects</h1>
     <div className="projects-container">
       <Card url="https://whalesightingsmap.netlify.com/" img={whaleSightingsMap}></Card>
-      <Card img={whosOnWhat}></Card>
-      <Card img={codePenProjects}></Card>
+      <Card url="https://whosonwhat.netlify.com/" img={whosOnWhat}></Card>
+      <Card url="https://codepen.io/Supra_01/" img={codePenProjects}></Card>
     </div>
     {/* <main id="projects-main">
     <h1 id="projects-title">Projects</h1>
