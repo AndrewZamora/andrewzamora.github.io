@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./header.css"
 import logo from "../images/az.svg"
-
+import SocialMedia from "./socialMedia"
 const links = ["Blog", "Projects", "Contact"];
 const sections = links.map(item => {
   const link = `/${item.toLowerCase()}/`;
@@ -24,6 +24,7 @@ const Header = ({ siteTitle }) => (
         {sections}
       </ul>
     </nav>
+    <SocialMedia/>
   </header>
 )
 

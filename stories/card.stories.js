@@ -6,8 +6,10 @@ export default {
 };
 
 export const card = () => (
-  <Card
-    title="TEST"
-    info="This provides info."
-    img="https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+  <div style={{display: "flex", justifyContent: "center"}}>
+    <Card
+      title="TEST"
+      info="This provides info."
+      img="https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+  </div>
 );
