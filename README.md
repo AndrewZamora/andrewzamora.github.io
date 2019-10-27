@@ -1,4 +1,4 @@
-# zamora.io
+# azamora.io
 This is my personal portfolio site.
 # How to run it:
 ```
