@@ -7,11 +7,14 @@
     flex-direction: column;
     margin-left: 200px;
     height: 100%;
-    justify-content: space-between;
 }
 
 .layout-footer {
     background: #cfcfcf;
     padding: 100px 0 10px 20px;
     margin-top: auto;
+}
+
+.layout-main {
+    height: 100%;
 }
