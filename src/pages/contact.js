@@ -13,7 +13,7 @@ const Contact = () => (
       <h2>Trying to get in touch?</h2>
       <p>You can find me on Github, Linkedin, Twitter, or Codepen:</p>
       <SocialMedia />
-      <p>You can also email me at </p>
+      {/* <p>You can also email me at </p> */}
     </div>
 
   </Layout>
