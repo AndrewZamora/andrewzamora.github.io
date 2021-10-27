@@ -38,7 +38,7 @@ const IndexPage = () => (
             <h1>Hello,</h1>
             <p>My name is</p>
             <h1>Andrew<br></br> Zamora.</h1>
-            <p>I build websites.</p>
+            <p>I build apps.</p>
           </div>
         </section>
         <nav>
@@ -51,8 +51,7 @@ const IndexPage = () => (
             <Link to="/projects/">Projects</Link>
           </div>
           <div className="linkedin">
-            <a href="https://www.linkedin.com/in/andrew-zamora-21058116" target="_blank" rel="noopener noreferrer"><img src={linkedinIcon}
-              alt="linkedin logo"></img></a>
+        <a href="https://www.andrewzamora.tech" target="_blank" rel="noopener noreferrer">Blog</a>
           </div>
         </nav>
       </main>

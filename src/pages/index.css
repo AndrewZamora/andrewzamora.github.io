@@ -103,6 +103,11 @@ nav a:hover {
   color: #535353;
 }
 
+.linkedin a {
+  color: #B0B0B0;
+  font-weight: 700;
+}
+
 .linkedin {
   display: flex;
   justify-content: center;
@@ -110,7 +115,7 @@ nav a:hover {
   align-items: center;
   width: 50%;
 }
-.linkedin img {
+.linkedin {
   padding: 0.95em 0;
 }
 
