@@ -21,7 +21,7 @@ const IndexPage = () => (
   //   <Link to="/page-2/">Go to page 2</Link>
   // </Layout>
   <>
-  <SEO title="Home" />
+  <SEO title="Andrew Zamora - I'm a freelance web developer." />
       <main id="home-page-main">
         <section id="contact-section">
           <div>
