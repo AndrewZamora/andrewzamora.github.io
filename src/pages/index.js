@@ -50,7 +50,7 @@ const IndexPage = () => (
             <Link to="/projects/">Projects</Link>
           </div>
           <div className="linkedin">
-        <a href="https://www.andrewzamora.tech" target="_blank" rel="noopener noreferrer">Blog</a>
+        <a href="https://www.azamora.io/blog" target="_blank" rel="noopener noreferrer">Blog</a>
           </div>
         </nav>
       </main>
